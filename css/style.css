@@ -10,6 +10,42 @@ header {
   position: relative;
   z-index: 9;
 }
+
+.scroll-text {
+  display: flex;
+  list-style: none;
+  padding-inline: 0;
+  margin-inline: 0;
+  gap: 0;
+  background-color: skyblue;
+  overflow: hidden;
+}
+
+/* liタグ */
+.scroll-text li {
+  color: #fff;
+  font-size: 3em;
+  font-weight: bold;
+  white-space: nowrap;
+  padding: 0 1em 0 0;
+  margin: 0;
+  animation: marquee-left 16s linear infinite;
+}
+
+/* PCの時のフォントサイズ */
+@media (min-width: 600px) {
+  .scroll-text li {
+    font-size: 8vw;
+  }
+}
+
+/* アニメーション */
+@keyframes marquee-left {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 header .header-wrap {
   position: fixed;
   top: 0;
