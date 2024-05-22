@@ -27,7 +27,7 @@ header .header-wrap h2 {
   line-height: 130%;
   pointer-events: auto;
 }
-header .header-wrap h1 a {
+header .header-wrap h2 a {
   color: black;
   border-bottom: none;
   font-size: 2.2vw;
