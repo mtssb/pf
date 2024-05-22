@@ -11,7 +11,7 @@ header {
   z-index: 9;
 }
 
-.scroll-text {
+header .scroll-text {
   display: flex;
   list-style: none;
   padding-inline: 0;
@@ -22,7 +22,7 @@ header {
 }
 
 /* liタグ */
-.scroll-text li {
+header .scroll-text li {
   color: #fff;
   font-size: 3em;
   font-weight: bold;
@@ -34,7 +34,7 @@ header {
 
 /* PCの時のフォントサイズ */
 @media (min-width: 600px) {
-  .scroll-text li {
+  header .scroll-text li {
     font-size: 8vw;
   }
 }
