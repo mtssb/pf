@@ -35,7 +35,7 @@ header .header-wrap h2 a {
   line-height: 130%;
   pointer-events: auto;
 }
-header .header-wrap h1 a:hover {
+header .header-wrap h2 a:hover {
   color: #D4F311;
 }
 header .header-wrap a {
