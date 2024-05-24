@@ -12,6 +12,7 @@ header {
 }
 header .markey{
   width:100%;
+  margin-bottom:30px;
 }
 .scroll-list {
   display: flex;
@@ -49,7 +50,7 @@ header .markey{
 }
 
 header .header-wrap {
-  position: fixed;
+/*   position: fixed; */
   top: 0;
   pointer-events: none;
 }
