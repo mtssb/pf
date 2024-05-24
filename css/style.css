@@ -236,6 +236,11 @@ header .sns-wrap-sp {
   height: 25vh;
   pointer-events: auto;
 }
+.works-wrap li img {
+  width: auto;
+  height: 25vh;
+  pointer-events: auto;
+}
 .works-wrap li .works-title {
   /* margin-top: 18vh; */
 }
@@ -284,6 +289,11 @@ header .sns-wrap-sp {
     pointer-events: none;
   }
   .works-wrap li video {
+    width: 22vw;
+    height: auto;
+    pointer-events: auto;
+  }
+   .works-wrap li img {
     width: 22vw;
     height: auto;
     pointer-events: auto;
@@ -341,6 +351,11 @@ header .sns-wrap-sp {
     display: flex;
   }
   .works-wrap li video {
+    width: 100%;
+    height: auto;
+    pointer-events: auto;
+  }
+  .works-wrap li img {
     width: 100%;
     height: auto;
     pointer-events: auto;
