@@ -96,7 +96,7 @@ header .sns-wrap-sp {
 
 @media all and (max-width: 1723px) {
   header .header-wrap h1 {
-    font-size: 2.6vw;
+    font-size: 2.2vw;
     letter-spacing: 0.4px;
     line-height: 130%;
     pointer-events: auto;
@@ -104,7 +104,7 @@ header .sns-wrap-sp {
   header .header-wrap h1 a {
     color: black;
     border-bottom: none;
-    font-size: 2.6vw;
+    font-size: 2.2vw;
     letter-spacing: 0.4px;
     line-height: 130%;
     pointer-events: auto;
