@@ -11,19 +11,19 @@ header {
   z-index: 9;
 }
 
-.scroll-text {
+.scroll-list {
   display: flex;
   list-style: none;
   padding-inline: 0;
   margin-inline: 0;
   gap: 0;
-  background-color: white;
+  /* background-color: white; */
   overflow: hidden;
 }
 
 /* liタグ */
-.scroll-text li {
-  color: #fff;
+.scroll-list li {
+  color: #000000;
   font-size: 3em;
   font-weight: bold;
   white-space: nowrap;
@@ -34,7 +34,7 @@ header {
 
 /* PCの時のフォントサイズ */
 @media (min-width: 600px) {
-  .scroll-text li {
+  .scroll-list li {
     font-size: 8vw;
   }
 }
@@ -52,26 +52,20 @@ header .header-wrap {
   pointer-events: none;
 }
 header .header-wrap h1 {
-  font-size: 3.2vw;
+  font-size: 1.2vw;
   letter-spacing: 0.4px;
   line-height: 130%;
   pointer-events: auto;
 }
-header .header-wrap h2 {
-  font-size: 2.2vw;
-  letter-spacing: 0.4px;
-  line-height: 130%;
-  pointer-events: auto;
-}
-header .header-wrap h2 a {
+header .header-wrap h1 a {
   color: black;
   border-bottom: none;
-  font-size: 2.2vw;
+  font-size: 1.2vw;
   letter-spacing: 0.4px;
   line-height: 130%;
   pointer-events: auto;
 }
-header .header-wrap h2 a:hover {
+header .header-wrap h1 a:hover {
   color: #D4F311;
 }
 header .header-wrap a {
@@ -230,6 +224,8 @@ header .sns-wrap-sp {
   height: 100px;
   margin-bottom: 24vh;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   pointer-events: none;
 }
 .works-wrap li video {
@@ -238,7 +234,7 @@ header .sns-wrap-sp {
   pointer-events: auto;
 }
 .works-wrap li .works-title {
-  margin-top: 18vh;
+  /* margin-top: 18vh; */
 }
 .works-wrap li .works-title a {
   color: black;
@@ -290,7 +286,7 @@ header .sns-wrap-sp {
     pointer-events: auto;
   }
   .works-wrap li .works-title {
-    margin-top: 16vw;
+    /* margin-top: 16vw; */
   }
   .works-wrap li .works-title a {
     color: black;
@@ -785,6 +781,7 @@ footer ul {
 }
 footer ul .sns-btn {
   margin-right: 32px;
+  border-bottom: solid;
 }
 footer ul a {
   color: black;
