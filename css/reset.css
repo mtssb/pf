@@ -9,7 +9,7 @@ body {
 	width:100%;
 	-webkit-text-size-adjust: none;
 	-ms-text-size-adjust: 100%;
-    font-family:"Helvetica",Arial,"Hiragino Kaku Gothic ProN","ヒラギノ角ゴ ProN W3","メイリオ",Meiryo,sans-serif;
+    font-family:"HelveticaNeue","Helvetica",Arial,"Hiragino Kaku Gothic ProN","ヒラギノ角ゴ ProN W3","メイリオ",Meiryo,sans-serif;
 	font-size: 16px;
 	position: relative;
 }
