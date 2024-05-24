@@ -10,9 +10,6 @@ header {
   position: relative;
   z-index: 9;
 }
-header .markey{
-  width:100%;
-}
 .scroll-list {
   display: flex;
   list-style: none;
@@ -152,6 +149,7 @@ header .sns-wrap-sp {
     width: 100%;
   }
   header .markey{
+    width:100%;
   margin-bottom:30px;
   }
   header .header-wrap {
