@@ -406,6 +406,9 @@ header .sns-wrap-sp {
   bottom: 0;
   margin-bottom: 4px;
 }
+.details-nav-container .details-nav-wrap ul{
+   column-count: 2;
+}
 .details-nav-container .details-nav-wrap a {
   color: black;
   border-bottom: solid;
@@ -417,7 +420,7 @@ header .sns-wrap-sp {
   color: #D4F311;
 }
 .details-nav-container .details-nav-wrap .details-nav-box {
-  width: 42vw;
+  width: 32vw;
   margin-left: 3vw;
   margin-right: 3vw;
   pointer-events: none;
