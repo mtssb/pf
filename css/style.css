@@ -420,7 +420,7 @@ header .sns-wrap-sp {
   color: #D4F311;
 }
 .details-nav-container .details-nav-wrap .details-nav-box {
-  width: 32vw;
+  width: 42vw;
   margin-left: 3vw;
   margin-right: 3vw;
   pointer-events: none;
@@ -436,7 +436,7 @@ header .sns-wrap-sp {
   color: black;
 }
 .details-container .details-wrap {
-  width: 42vw;
+  width: 32vw;
   display: flex;
   flex-direction: column;
 }
