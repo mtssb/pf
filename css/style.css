@@ -436,7 +436,7 @@ header .sns-wrap-sp {
   color: black;
 }
 .details-container .details-wrap {
-  width: 62vw;
+  width: 50vw;
   display: flex;
   flex-direction: column;
 }
