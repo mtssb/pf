@@ -25,6 +25,7 @@ table {
     border-spacing: 0;
 }
 ul,ol {
+	 column-count: 2;
 	list-style:none;
 }
 a {
